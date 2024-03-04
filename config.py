@@ -31,15 +31,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining6/MOONMUSICC",
+    "https:https://t.me/shyari_sukon",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MOON_SOCIETYY")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MILKY_WAY_45")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/its_me_aloneboy")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/shyarii_sukoon")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -112,13 +112,13 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/aa015718299510040d41f.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/9f8a4ac4d7be59bc4f2df.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/aa015718299510040d41f.jpg"
+    "PING_IMG_URL", "https://graph.org/file/3a9abd3892f2a85466056.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
+STATS_IMG_URL = "https://graph.org/file/3aaf7763055b5af47ef76.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
