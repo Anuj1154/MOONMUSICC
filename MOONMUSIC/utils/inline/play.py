@@ -1,4 +1,4 @@
-import math
+ooimport math
 
 from pyrogram.types import InlineKeyboardButton
 
@@ -32,7 +32,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+              url="https://t.me/shyari_sukon",
             ),
         ],
     ]
@@ -93,7 +93,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+              url="https://t.me/shyari_sukon",
             ),
         ],
     ]
@@ -129,7 +129,7 @@ def stream_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+              url="https://t.me/shyari_sukon",
             ),
         ],
     ]
@@ -258,7 +258,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+              url="https://t.me/shyari_sukon",
             ),
         ],
     ]
